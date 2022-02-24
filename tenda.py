@@ -186,7 +186,7 @@ def main():
           pwd = getpass(prompt='new WiFi password: ')
           tenda.changePwd(pwd)
     else:
-      print("Invalid choice! Only integers from 1 to 6")
+      print("Invalid choice! Only integers from 1 to 7")
 
 if __name__ == '__main__':
   main()
